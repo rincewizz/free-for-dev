@@ -85,15 +85,21 @@ Table of Contents
     * Full, detailed list - https://cloud.google.com/free
 
   * [Amazon Web Services](https://aws.amazon.com)
+    * Amazon CloudFront - 1TB egress per month
     * Amazon DynamoDB - 25GB NoSQL DB
-    * Amazon Lambda - 1 Million requests per month
+    * Amazon EC2 - 100GB aggregated egress per month
+    * Amazon EC2 - 750 hours per month of t2.micro or t3.micro
+    * Amazon EBS - 30GB per month of General Purpose (SSD) or Magnetic
+    * Amazon ELB - 750 hours per month
+    * Amazon Lambda - 1 million requests per month
     * Amazon SNS - 1 million publishes per month
+    * Amazon SES - 62.000 messages per month
     * Amazon Cloudwatch - 10 custom metrics and 10 alarms
     * Amazon Glacier - 10GB long-term object storage
     * Amazon SQS - 1 million messaging queue requests
     * Amazon CodeBuild - 100min of build time per month
-    * Amazon Code Commit - 5 active users per month
-    * Amazon Code Pipeline - 1 active pipeline per month
+    * Amazon CodeCommit - 5 active users per month
+    * Amazon CodePipeline - 1 active pipeline per month
     * Full, detailed list - https://aws.amazon.com/free/
 
   * [Microsoft Azure](https://azure.microsoft.com)
@@ -199,9 +205,11 @@ Table of Contents
   * [Colaboratory](https://colab.research.google.com) — Free web-based Python notebook environment with Nvidia Tesla K80 GPU.
   * [Collect2](https://collect2.com) — Create an API endpoint to test, automate, and connect webhooks. Free plan allows for two datasets, 2000 records, 1 forwarder, and 1 alert.
   * [Conversion Tools](https://conversiontools.io/) - Online File Converter for documents, images, video, audio, eBooks. REST API is available. Libraries for Node.js, PHP, Python. Support files up to 50 GB (for paid plans). Free tier is limited by file size and number of conversions per day.
+  * [Coupler](https://www.coupler.io/) - Data integration tool that syncs between apps. It can create live dashboards and reports, transform and manipulate values, collect and back up insights. The free plan has unlimited users, 100 runs with 1000 rows a month and unlimited integrations.
   * [CraftMyPDF](https://craftmypdf.com) - Auto-Generate PDF documents from reusable templates with a drop-and-drop editor and a simple API. Free plan comes with 100 PDFs/month and 3 templates.
   * [CurlHub](https://curlhub.io) — Proxy service for inspecting and debugging API calls. Free plan includes 10,000 requests per month.
   * [CurrencyScoop](https://currencyscoop.com) - Realtime currency data API for fintech apps. Free plan includes 5000 calls per month.
+  * [Dataimporter.io](https://www.dataimporter.io) - Tool for connecting, cleaning, and importing data into Salesforce. Free Plan includes up to 20,000 records per month.
   * [Datapane](https://datapane.com) - API for building interactive reports in Python and deploying Python scripts and Jupyter Notebooks as self-service tools.
   * [DB Designer](https://www.dbdesigner.net/) — Cloud based Database schema design and modeling tool with a free starter plan of 2 Database models and 10 tables per model.
   * [DeepAR](https://developer.deepar.ai) — Augmented reality face filters for any platform with one SDK. Free plan provides up to 10 monthly active users (MAU) and tracking up to 4 faces
@@ -599,6 +607,8 @@ Table of Contents
   * [cloudkarafka.com](https://www.cloudkarafka.com/) - Free Shared Kafka cluster, up to 5 topics, 10MB data per topic and 28 days of data retention.
   * [pubnub.com](https://www.pubnub.com/) - Swift, Kotlin and React messaging at 1 million transactions each month. Transactions may contain multiple messages.
   * [eyeson API](https://developers.eyeson.team/) - A video communication API service based on WebRTC (SFU, MCU) to build video platforms. Allows RealTime Data Injection, Video Layouts, Recordings, a fully featured hosted web UI (quickstart) or packages for custom UIs. Has a [free tier for developers](https://apiservice.eyeson.com/api-pricing) with 1000 meeting minutes a month.
+  * [Upstash Kafka](https://upstash.com/kafka) - Serverless Kafka Cloud offering with per-request-pricing. It has a free tier with max 10000 messages per day.
+
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -857,7 +867,7 @@ Table of Contents
 ## CDN and Protection
 
   * [Arvan Cloud](https://arvancloud.com/) — Offers cloud related services (CDN,Cloud DNS, PaaS, Security etc.). Free plan offers :
-    - CDN with Free SSL. 50 GB Traffic + 1 Million HTTP(S) Requests.
+    - CDN with Free SSL. 100 GB Traffic + 1 Million HTTP(S) Requests.
     - Free Cloud DNS for unlimited domains.
     - Free Cloud Security with Basic DDoS Protection + 5 Firewall Rules.
     - Free VoD (Video On Demand) Platform with 10 GB Storage + 50 GB Traffic.
@@ -910,7 +920,7 @@ Table of Contents
   * [outsystems.com](https://www.outsystems.com/) — Enterprise web development PaaS for on-premise or cloud, free "personal environment" offering allows for unlimited code and up to 1 GB database
   * [pipedream.com](https://pipedream.com) - An integration platform built for developers. Develop any workflow, based on any trigger. Workflows are code, which you can run [for free](https://docs.pipedream.com/pricing/). No server or cloud resources to manage.
   * [pythonanywhere.com](https://www.pythonanywhere.com/) — Cloud Python app hosting. Beginner account is free, 1 Python web application at your-username.pythonanywhere.com domain, 512 MB private file storage, one MySQL database
-  * [scn.sap.com](https://scn.sap.com/docs/DOC-56411) — The in-memory Platform-as-a-Service offering from SAP. Free developer accounts come with 1 GB structured, 1 GB unstructured, 1 GB of Git data and allow you to run HTML5, Java and HANA XS apps
+  * [sap.com](https://archive.sap.com/documents/docs/DOC-56411/) — The in-memory Platform-as-a-Service offering from SAP. Free developer accounts come with 1 GB structured, 1 GB unstructured, 1 GB of Git data and allow you to run HTML5, Java and HANA XS apps
   * [Serverless Cloud](https://www.serverless.com/cloud) - Serverless Cloud lets you build Serverless APIs, DBs and Storage by using infrastrucure _from_ code approach(no yaml, no infrastructure configuration). The product is provided by Serverless Inc. and currently under public preview. 
   * [fly.io](https://fly.io/) - Fly is a platform for applications that need to run globally. It runs your code close to users and scales compute in cities where your app is busiest. Write your code, package it into a Docker image, deploy it to Fly's platform and let that do all the work to keep your app snappy. Free for side projects, $10/mo of service credit that automatically applies to any paid service. And if you ran really small virtual machines, credits will go a long way.
   * [Divio](https://www.divio.com/) - A platform to manage cloud application deploying only using Docker. Available free subscription for development projects, Requires card and no custom domain support.  
@@ -1001,7 +1011,6 @@ Table of Contents
   * [dnspod.com](https://www.dnspod.com/) — Free DNS hosting.
   * [duckdns.org](https://www.duckdns.org/) — Free DDNS with up to 5 domains on the free tier. With configuration guides for various setups.
   * [dynu.com](https://www.dynu.com/) — Free dynamic DNS service
-  * [fosshost.org](https://fosshost.org/) - Free open source hosting VPS, web, storage and mirror hosting
   * [freedns.afraid.org](https://freedns.afraid.org/) — Free DNS hosting. Also provide free subdomain based on numerous public user [contributed domains](https://freedns.afraid.org/domain/registry/). Get free subdomains from "Subdomains" menu after signing up.
   * [luadns.com](https://www.luadns.com/) — Free DNS hosting, 3 domains, all features with reasonable limits
   * [namecheap.com](https://www.namecheap.com/domains/freedns/) — Free DNS. No limit on number of domains
@@ -1010,6 +1019,7 @@ Table of Contents
   * [ns1.com](https://ns1.com/) — Data Driven DNS, automatic traffic management, 500k free queries
   * [nsupdate.info](https://www.nsupdate.info/) — Free and open-source Dynamic DNS service
   * [pointhq.com](https://pointhq.com/developer) — Free DNS hosting on Heroku.
+  * [qingcloud](https://www.qingcloud.com/products/dns/) — Free DNS hosting by QingCloud.
   * [selectel.com](https://selectel.com/services/dns/) — Free DNS hosting with unlimited records, anycast
   * [web.gratisdns.dk](https://web.gratisdns.dk/domaener/dns/) — Free DNS hosting.
   * [Yandex.Connect](https://connect.yandex.com/pdd/) — Free email and DNS hosting for up to 1,000 users
@@ -1017,17 +1027,18 @@ Table of Contents
   * [zoneedit.com](https://www.zoneedit.com/free-dns/) — Free DNS hosting with Dynamic DNS Support.
   * [zonewatcher.com](https://zonewatcher.com) — Automatic backups and DNS change monitoring. 1 domain free
   * [huaweicloud.com](https://www.huaweicloud.com/intl/en-us/product/dns.html) – Free DNS hosting by Huawei
-  * [Hetzner](https://www.hetzner.com/dns-console) – Free DNS hosting from Hetzner with API support
+  * [Hetzner](https://www.hetzner.com/dns-console) – Free DNS hosting from Hetzner with API support.
   * [Glauca](https://docs.glauca.digital/hexdns/) – Free DNS hosting for up to 3 domains and DNSSEC support
 
 **[⬆ back to top](#table-of-contents)**
 
 ## IaaS
 
-  * [filebase.com](https://filebase.com/) - S3 Compatible Object Storage Powered by Blockchain. 5 GB free storage for unlimited duration.
   * [backblaze.com](https://www.backblaze.com/b2/) — Backblaze B2 cloud storage. Free 10 GB (Amazon S3-like) object storage for unlimited time
-  * [scaleway.com](https://www.scaleway.com/en/object-storage/) — S3-Compatible Object Storage. Free 75 GB storage and external outgoing traffic
-  * [terraform.io](https://www.terraform.io/) — Terraform Cloud. Free remote state management and team collaboration for teams up to 5 users.
+  * [filebase.com](https://filebase.com/) - S3 Compatible Object Storage Powered by Blockchain. 5 GB free storage for unlimited duration.
+  * [fosshost.org](https://fosshost.org/) - Free open source hosting VPS, web, storage and mirror hosting.
+  * [scaleway](https://www.scaleway.com/en/object-storage/) — S3-Compatible Object Storage. Free 75 GB storage and external outgoing traffic.
+  * [Storj](https://storj.io/) — Decentralised Private Cloud Storage for Apps and Developers. Free plan provides 3 Projects, 50 GB storage per project/month , 50 GB bandwidth per project/month.
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1057,6 +1068,7 @@ Table of Contents
    * [Neo4j Aura](https://neo4j.com/cloud/aura/) — Managed native Graph DBMS / analytics platform with a Cypher query language and a REST API. Limits on graph size (50k nodes, 175k relationships).
    * [Dgraph Cloud](https://cloud.dgraph.io/pricing?type=free) — Managed native Graph DBMS with a GraphQL API. Limited to 1 MB data transfer per day.
    * [TigerGraph Cloud](https://www.tigergraph.com/cloud/) — Managed native Graph DBMS / analytics platform with a SQL-like graph query language and a REST API. 1 TG.Free instance on AWS (4 vCPU, 7.5 GB memory, 50 GB disk) or on GCP(2 vCPU, 8 GB memory, 128 GB disk). Free instance sleeps after 1 hour of inactivity.
+   * [TerminusX](https://terminusdb.com/) — Managed free service for TerminusDB, a document and graph database written in Prolog and Rust. Free for dev, paid service for enterprise deployments and support.
    * [Macrometa](https://www.macrometa.com/) - a noSQL database, Pub/Sub, event processing, and serverless edge computing platform for building geo-distributed and real-time applications. Free dev account gives access to 10,000 Operations/Day & 200MB Storage.
    * [Planetscale](https://planetscale.com/) - PlanetScale is a MySQL compatible, serverless database platform powered by Vitess, 3 databases for free with 10GB storage, 100 Million rows read/mo per database, and 10 Million rows written/mo per database.
    * [YugabyteDB](http://cloud.yugabyte.com) - YugabyteDB is a distributed SQL database compatible with PostgresSQL. The cloud free tier is a 2 vCPU, 4GB RAM, 10GB Disk.
@@ -1183,7 +1195,6 @@ Table of Contents
    * [QuickChart](https://quickchart.io) — Generate embeddable image charts, graphs, and QR codes
    * [redbooth.com](https://redbooth.com) — P2P file syncing, free for up to 2 users
    * [Skynet](https://siasky.net) — An open protocol for hosting data and web applications on the decentralized web using [Sia](https://sia.tech/). Free tier provides storage upto 100GB.
-   * [Storj](https://storj.io) — Decentralised Private Cloud Storage for Apps and Developers. Free plan provides 3 Projects, 50 GB storage per project/month , 50 GB bandwidth per project/month.
    * [tinypng.com](https://tinypng.com/) — API to compress and resize PNG and JPEG images, offers 500 compressions for free each month
    * [transloadit.com](https://transloadit.com/) — Handles file uploads and encoding of video, audio, images, documents. Free for Open source, charities, and students via the GitHub Student Developer Pack. Commercial applications get 2 GB free for test driving
    * [twicpics.com](https://www.twicpics.com) - Responsive images as a service. It provides an image CDN, a media processing API and frontend library to automate image optimization. The service is free up to 3GB trafic/month.
@@ -1252,6 +1263,7 @@ Table of Contents
   * [Mastershot](https://mastershot.app) - Completely free browser-based video editor. No watermark, up to 1080p export options.
   * [Unicorn Platform](https://unicornplatform.com/) - Effortless landing page builder with hosting. 1 website for free.
   * [react-favicon.com](https://react-favicon.com/) - Generate Favicons for your web site using React and JSX using any font and icon library.
+  * [svgrepo.com](https://www.svgrepo.com/) - Explore, search and find the best fitting icons or vectors for your projects using wide variety vector library. Download free SVG Vectors for commercial use.
 
 **[⬆ back to top](#table-of-contents)**
 
